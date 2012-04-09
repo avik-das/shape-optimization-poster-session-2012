@@ -1,0 +1,50 @@
+== LEFT COLUMN: ===============================================================
+
+Shape Optimization of Toroidal Sweeps
+Advisor: Carlo H. Séquin
+Avik Das
+EECS
+
+Objective:
+ - Minimize energy of a curve based on bending and twisting
+ - Invert a torus in minimal energy fashion
+
+Bending and twist:
+ - PICT: twist (uncompensated)
+ - PICT: twist (  compensated)
+ - unfolding torus
+   - PICT: figure-8 <- point out more bending
+   - PICT: unfolded <- point out more twist
+   - middle ground?
+
+== MIDDLE COLUMN: =============================================================
+
+Torus eversion:
+ - PICT: from video
+   - two Klein bottle mouths
+ - PICT: red/green wire mesh
+
+Symmetric halfway-point
+ - model
+ - PICT: symmetric-halfway point
+   - additionally, wireframe and just the runner
+
+Towards eversion
+ - PICT: straightening out one arm
+ - PICT: moving the end caps closer together (270 degrees perhaps?)
+ - PICT: 360 degrees of twist on right arm
+
+== RIGHT COLUMN: ==============================================================
+
+Implementation details
+ - gradient descent
+ - one parameter at a time <- local minima
+ - one of the following:
+   - PICT: double circle
+   - PICT: trefoil
+
+Future work:
+ - gridded optimization
+   - PICT: bending based on quadrilateral patches
+   - PICT: twisting based on quadrilateral patches
+   - many parameters
